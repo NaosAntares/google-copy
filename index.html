@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google-copy</title>
@@ -8,23 +9,26 @@
 <body>
     <nav>
         <div class="flex-nav">
-            <a href="#" class="nav-text">Gmail</a>
-            <a href="#" class="nav-text">Imagenes</a>
+            <div class="flex-text">
+                <a href="#" class="nav-text">Gmail</a>
+                <a href="#" class="nav-text">Imagenes</a>
+            </div>
             <a href="#" class="nav-text" id="google-apps" title="Google Apps"></a>
             <a href="#" class="nav-text" id="google-acc" title="Cuenta de Google"></a>
         </div>
     </nav>
-    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo" id="logo">
-    <div class="textbox-area">
-        <svg id="lupa"></svg>
-        <input type="text" name="search" id="textbox">
-    </div>
+    <div id="main-area">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google logo" id="logo">
+        <div class="textbox-area">
+            <svg id="lupa"></svg>
+            <input type="text" name="search" id="textbox">
+        </div>
 
-    <div id="buttons">
-        <input type="button" value="Buscar con Google">
-        <input type="button" value="Me siento con suerte">
+        <div id="buttons">
+            <input type="button" value="Buscar con Google">
+            <input type="button" value="Me siento con suerte">
+        </div>
     </div>
-    
     <footer>
         <div id="mexico">
             <p class="footer-text">Mexico</p>

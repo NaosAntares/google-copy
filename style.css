@@ -1,0 +1,39 @@
+.flex-nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row;
+}
+
+.flex-text {
+    
+}
+.nav-text {
+    text-decoration: none;
+    color: black;
+}
+
+#main-area {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10em;
+    align-items: center;
+}
+
+#logo {
+    width: 272px;
+    height: auto;
+}
+
+.textbox-area {
+    display: flex;
+    justify-content: center;
+}
+
+#textbox {
+    margin-top: 50px;
+    padding-left: 55px;
+    margin-right: 240px;
+    height: 30px;
+    width: 500px;
+
+}
